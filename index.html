@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Selva's Apps — Android downloads</title>
+<meta name="description" content="Free Android apps built by Selva. Download the APK and install in a minute.">
+<meta property="og:title" content="Selva's Apps"><meta property="og:description" content="Free Android apps. Download the APK and install in a minute.">
+<meta name="theme-color" content="#0d0f14">
+<style>
+:root{--bg:#0d0f14;--card:#161920;--line:#262b35;--tx:#eef0f4;--mut:#98a0ae;--ac:#818cf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 -apple-system,system-ui,"Segoe UI",Roboto,sans-serif}
+.w{max-width:640px;margin:0 auto;padding:20px 16px 60px}
+header{padding:36px 0 18px}
+h1{margin:0;font-size:32px;letter-spacing:-.02em}
+header p{color:var(--mut);margin:8px 0 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;margin:16px 0}
+.top{display:flex;gap:14px;align-items:center}
+.top img{width:72px;height:72px;border-radius:18px;flex:none}
+.top h2{margin:0;font-size:21px}.top span{color:var(--mut);font-size:14px}
+.card p{color:var(--mut);margin:14px 0 8px}
+ul{margin:0 0 14px;padding-left:20px;color:var(--tx);font-size:15px}
+.btn{display:flex;justify-content:center;align-items:center;gap:8px;width:100%;min-height:52px;border-radius:14px;font-weight:700;font-size:17px;text-decoration:none;color:#fff;background:var(--c)}
+.meta{text-align:center;color:var(--mut);font-size:13px;margin-top:8px}
+details{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+summary{cursor:pointer;color:var(--ac);font-weight:600}
+ol{color:var(--mut);padding-left:20px;font-size:15px}
+h3{margin:30px 0 4px}
+.faq p{color:var(--mut);margin:4px 0 14px}
+footer{margin-top:36px;color:var(--mut);font-size:13px;text-align:center}
+footer a{color:var(--ac)}
+</style></head><body><div class="w">
+<header><h1>Selva's Apps ❄️🏋️</h1><p>Free Android apps. No login, no ads, no tracking. Everything stays on your phone.</p></header>
+
+<section class="card" style="--c:#6366f1">
+  <div class="top"><img src="assets/winter-arc.png" alt="Winter Arc icon"><div><h2>Winter Arc</h2><span>Daily habit tracker</span></div></div>
+  <p>Open it, tick today's habits, track your streak. Built around a "never miss twice" rule.</p>
+  <ul><li>Daily checklist with live completion %</li><li>Workout / rest day toggle</li><li>Monthly calendar, streaks, weekly summary</li><li>Water tracker and daily schedule</li></ul>
+  <a class="btn" href="downloads/winter-arc.apk" download>⬇ Download APK</a>
+  <div class="meta" data-size="downloads/winter-arc.apk">Android · works offline</div>
+</section>
+
+<section class="card" style="--c:#e8a33d">
+  <div class="top"><img src="assets/iron-log.png" alt="Iron Log icon"><div><h2>Iron Log</h2><span>Workout tracker</span></div></div>
+  <p>Log sets, beat your last session and watch your lifts climb. Fully customizable plan.</p>
+  <ul><li>Add, edit and reorder your own exercises</li><li>Auto weight progression and personal bests</li><li>Charts: top weight, volume, estimated 1RM</li><li>Backup and restore your data</li></ul>
+  <a class="btn" style="color:#241a08" href="downloads/iron-log.apk" download>⬇ Download APK</a>
+  <div class="meta" data-size="downloads/iron-log.apk">Android · works offline</div>
+</section>
+
+<h3>How to install</h3>
+<ol style="color:var(--mut)">
+  <li>Open this page in <b>Chrome on your Android phone</b> and tap Download.</li>
+  <li>When the download finishes, tap the file.</li>
+  <li>If asked, allow <b>Install unknown apps</b> for Chrome, then go back and tap Install.</li>
+  <li>If Play Protect warns you, tap <b>Install anyway</b>. The apps aren't on the Play Store.</li>
+</ol>
+
+<h3>FAQ</h3>
+<div class="faq">
+  <b>Why the security warning?</b><p>Android warns about any app that doesn't come from the Play Store. The source code for these apps is public on GitHub.</p>
+  <b>Does it work on iPhone?</b><p>No, these are Android-only.</p>
+  <b>Will an update keep my data?</b><p>Usually yes. If an update fails to install, back up from inside the app, uninstall, then install the new version.</p>
+</div>
+<footer>Built by Selva · <a href="https://github.com/Selva426">GitHub</a></footer>
+</div>
+<script>
+document.querySelectorAll('[data-size]').forEach(function(el){
+  fetch(el.dataset.size,{method:'HEAD'}).then(function(r){
+    var n=+r.headers.get('content-length'); if(r.ok&&n) el.textContent='Android · '+(n/1048576).toFixed(1)+' MB · works offline';
+  }).catch(function(){});
+});
+</script></body></html>
