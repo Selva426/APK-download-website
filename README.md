@@ -49,5 +49,5 @@ HTML · CSS · vanilla JavaScript · GitHub Pages
 
 ## Preview
 
-![Home page](docs/site-home.png)
+![Home page](site-home.png)
 ![Install steps](docs/site-install.png)
