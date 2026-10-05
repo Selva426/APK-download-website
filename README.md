@@ -46,3 +46,8 @@ Open `index.html` in a browser. No setup needed.
 
 ## Tech
 HTML · CSS · vanilla JavaScript · GitHub Pages
+
+## Preview
+
+![Home page](docs/site-home.png)
+![Install steps](docs/site-install.png)
