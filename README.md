@@ -8,11 +8,10 @@ A simple download page for my Android apps. Open the link on your phone, tap Dow
 
 ## Apps
 
-| App | What it does | Source |
+| App | What it does |
 |---|---|---|
-| ❄️ **Winter Arc** | Daily habit tracker with streaks, a weekly summary, a water tracker and a daily schedule | [winter-arc](https://github.com/Selva426/winter-arc) |
-| 🏋️ **Iron Log** | Workout tracker with custom exercises, auto weight progression, PR tracking and charts | [iron-log](https://github.com/Selva426/iron-log) |
-
+| ❄️ **Winter Arc** | Daily habit tracker with streaks, a weekly summary, a water tracker and a daily schedule |
+| 🏋️ **Iron Log** | Workout tracker with custom exercises, auto weight progression, PR tracking and charts |
 Both apps work fully offline, with no login, no ads and no tracking. Data stays on the device.
 
 ## How the site works
@@ -50,4 +49,4 @@ HTML · CSS · vanilla JavaScript · GitHub Pages
 ## Preview
 
 ![Home page](site-home.png)
-![Install steps](docs/site-install.png)
+![Install steps](site-install.png)
