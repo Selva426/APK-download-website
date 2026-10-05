@@ -2,7 +2,7 @@
 
 A simple download page for my Android apps. Open the link on your phone, tap Download, install.
 
-**🌐 Live site:** https://selva426.github.io/apps/
+**🌐 Live site:** [https://selva426.github.io/apps/](https://github.com/actions/runner-images/issues/14748)
 
 <!-- Add a screenshot: ![Site preview](docs/site.png) -->
 
